@@ -6,7 +6,7 @@ name: build
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 
   workflow_dispatch:
 
@@ -45,7 +45,7 @@ jobs:
           git add .; \
           git status .; \
           git commit -m "スプレッドシートのデータを更新"; \
-          git push -f origin master; \
+          git push -f origin main; \
         fi
 
     - run: npm run build
