@@ -78,7 +78,8 @@ const App = () => {
       <div className="app-body">
         <Routes>
           <Route path="/" element={<Home data={shopList} />} />
-          <Route path="/list" element={<List data={shopList} />} />
+          {/* <Route path="/list" element={<List data={shopList} />} /> */}
+          <Route path="/list" element={<List />} />
           <Route path="/category" element={<Category data={shopList} />} />
           <Route path="/images" element={<Images data={shopList} />} />
           <Route path="/about" element={<AboutUs />} />
