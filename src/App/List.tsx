@@ -173,7 +173,19 @@ const Content = () => {
           投稿する！
         </a>
       </div>
-      <img src="https://managitmana.github.io/catmap/posttop.jpg" alt="投稿お願い画像" />
+      <p>修正はこちら</p>
+      <div className="btn-radius-gradient-wrap">
+        <a
+          href="https://forms.gle/i8J6xN8cu3TZhgik8"
+          className="btn btn-radius-gradient"
+        >
+          修正する！
+        </a>
+      </div>
+      <img
+        src="https://managitmana.github.io/catmap/posttop.jpg"
+        alt="投稿お願い画像"
+      />
     </div>
   );
 };
