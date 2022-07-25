@@ -66,8 +66,8 @@ const Content = (props: Props) => {
       <div className="container">
         {shop ? (
           <>
-            <h2>{shop["スポット名"]}</h2>
-            <p>{shop["公式サイト"]}</p>
+            <h1 className="">タイトル：{shop["スポット名"]}</h1>
+            <p>管理番号：{shop["公式サイト"]}</p>
             <div>
               <span className="nowrap">
                 <Link to={`/list?category=${category}`}>
@@ -84,7 +84,11 @@ const Content = (props: Props) => {
                 )}
               </span>
             </div>
-
+            <div>
+              {" "}
+              <h2>連絡先</h2>
+              <p>{shop["連絡先"]}</p>
+            </div>
             <div style={{ margin: "24px 0" }}>
               <Links data={shop} />
             </div>
@@ -96,8 +100,10 @@ const Content = (props: Props) => {
                 style={{ width: "100%" }}
               />
             )}
-
-            <p style={{ margin: "24px 0" }}>{toBreakLine(content)}</p>
+            <div>
+              <h2>内容</h2>
+              <p style={{ margin: "24px 0" }}>{toBreakLine(content)}</p>
+            </div>
 
             <div
               ref={mapNode}
