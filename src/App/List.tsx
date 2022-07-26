@@ -167,7 +167,7 @@ const Content = () => {
       <p>好きな画像やみんなにお知らせしたい情報をにゃんでも投稿してください</p>
       <div className="btn-radius-gradient-wrap">
         <a
-          href="https://forms.gle/i8J6xN8cu3TZhgik8"
+          href="https://script.google.com/macros/s/AKfycbzqO3l7oA_d78F3g-y1JaAjZTEr1EJI8okxgIf0Ds8rLc5vJlDsbPMkA9IU2sL6vWXw/exec"
           className="btn btn-radius-gradient"
         >
           投稿する！
