@@ -11,8 +11,8 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron:  '0 */2 * * *'
-    # 2時間ごとに実行
+    - cron:  '0 2 * * *'
+    # 毎朝2時に更新
 
 jobs:
   ubuntu:
