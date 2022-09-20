@@ -1,7 +1,93 @@
 {
-  "error": {
-    "code": 503,
-    "message": "The service is currently unavailable.",
-    "status": "UNAVAILABLE"
-  }
+  "range": "'スポットデータ'!A1:J94",
+  "majorDimension": "ROWS",
+  "values": [
+    [
+      "タイムスタンプ",
+      "カテゴリ",
+      "画像",
+      "緯度",
+      "経度",
+      "スポット名",
+      "紹介文",
+      "Instagram",
+      "Twitter",
+      "公式サイト"
+    ],
+    [
+      "2022/05/11 14:46:34",
+      "捨て猫・野良猫",
+      "https://user-images.githubusercontent.com/109492159/179466249-0b8299b9-19ef-422d-af13-088b99640943.png",
+      "35.730091",
+      "139.73754",
+      "捨て猫情報",
+      "東京の路地裏に捨て猫がいました",
+      "takuyahirane",
+      "mayoi88n",
+      "1001"
+    ],
+    [
+      "2022/6/3 22:26:48",
+      "捨て猫・迷い猫",
+      "http://drive.google.com/uc?export=view&id=1bpb5N8FaHQERFNwQ0p4Ty8zpwiYHX-xQ",
+      "35.740091",
+      "139.73754"
+    ],
+    [
+      "2022/6/3 22:49:56",
+      "マイペット",
+      "http://drive.google.com/uc?export=view&id=1W3r3cNvnLULjVnPBw_uBPjdmokUh2PoD",
+      "35.740091",
+      "139.73754"
+    ],
+    [
+      "2022/6/3 22:49:58",
+      "マイペット",
+      "http://drive.google.com/uc?export=view&id=1930kT0CYO_FTZkH9mM743ncClOUZUBbT",
+      "35.740091",
+      "139.73754"
+    ],
+    [
+      "2022/6/3 22:50:00",
+      "マイペット",
+      "http://drive.google.com/uc?export=view&id=1CThdsR-heToJLQ_UI79NG2fDHSMjZ_ud",
+      "35.740091",
+      "139.73754"
+    ],
+    [
+      "2022/6/3 22:50:02",
+      "マイペット",
+      "http://drive.google.com/uc?export=view&id=1BaQafHHChMz1ng1_pC8puBqV6AsZKSwo",
+      "35.740091",
+      "139.73754"
+    ],
+    [
+      "2022/6/3 22:50:06",
+      "マイペット",
+      "http://drive.google.com/uc?export=view&id=1JgaeByFlhJ_Nl7swNchU9OoFgM7zCMlu",
+      "35.740091",
+      "139.73754"
+    ],
+    [
+      "2022/6/3 22:50:09",
+      "マイペット",
+      "http://drive.google.com/uc?export=view&id=1xySpFyI-1m3Jc3Cg0mAa53Pe80hOohSh",
+      "35.740091",
+      "139.73754"
+    ],
+    [
+      "2022/6/3 22:50:12",
+      "マイペット",
+      "http://drive.google.com/uc?export=view&id=1T7aiAi1_C_SXa1AR4l6uwfKYlGGuZgpA",
+      "35.740091",
+      "139.73754"
+    ],
+    [
+      "2022/6/3 22:50:15",
+      "マイペット",
+      "http://drive.google.com/uc?export=view&id=15p3BvCAb0P-60Vs42XWifM2bCREulxU4",
+      "35.740091",
+      "139.73754"
+    ]
+  ]
 }
